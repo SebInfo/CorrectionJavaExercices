@@ -1,8 +1,8 @@
-package chap2;
+package chapitre4;
 
 import java.util.Scanner;
 
-public class Exercice22 {
+public class Exercice42 {
 
     public static void main(String[] args) {
 
@@ -23,17 +23,11 @@ public class Exercice22 {
 
             } while (nombre < 1 || nombre > 10);
 
-            if (nombre >= 1 && nombre <= 10) {
+            System.out.println("\nTable de multiplication de " + nombre + " :");
 
-                System.out.println("\nTable de multiplication de " + nombre + " :");
-
-                // Affichage de la table avec une boucle for
-                for (int i = 1; i <= 10; i++) {
-                    System.out.println(nombre + " x " + i + " = " + (nombre * i));
-                }
-
-            } else {
-                System.out.println("Erreur : le nombre doit être compris entre 1 et 10.");
+            // La valeur est deja validee par la boucle precedente.
+            for (int i = 1; i <= 10; i++) {
+                System.out.println(nombre + " x " + i + " = " + (nombre * i));
             }
 
             // Demande pour recommencer
