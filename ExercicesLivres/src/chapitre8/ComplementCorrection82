@@ -1,0 +1,55 @@
+Correction de l'exercice 8.2
+1. Pourquoi cette hiérarchie est problématique
+
+La classe Carre hérite de la classe Rectangle.
+Cependant, un carré possède une contrainte supplémentaire : sa largeur et sa hauteur doivent toujours être égales.
+
+Dans l'implémentation proposée, les méthodes setLargeur() et setHauteur() modifient les deux dimensions afin de conserver cette propriété.
+
+Le problème apparaît lorsqu’un objet Carre est utilisé à la place d’un Rectangle.
+
+Un programme utilisant un Rectangle suppose que :
+
+la largeur et la hauteur peuvent être modifiées indépendamment
+
+Or ce n’est pas vrai pour un carré.
+
+Cela viole donc le principe de substitution de Liskov.
+
+Un objet d'une classe dérivée doit pouvoir remplacer un objet de la classe de base sans modifier le comportement attendu du programme.
+
+Exemple :
+public class Test {
+
+    public static void main(String[] args) {
+
+        Rectangle rectangle = new Carre();
+
+        rectangle.setLargeur(5);
+        rectangle.setHauteur(10);
+
+        System.out.println(rectangle.calculerSurface());
+    }
+
+}
+
+Un développeur utilisant un Rectangle pourrait s'attendre à obtenir :
+5 × 10 = 50
+Mais avec l'implémentation du Carre, l'appel à :
+rectangle.setHauteur(10);
+modifie aussi la largeur.
+
+La surface devient donc :
+10 × 10 = 100
+
+Le comportement attendu pour un rectangle est donc modifié, ce qui viole le principe de substitution de Liskov.
+
+Une meilleure solution consiste à ne pas faire hériter Carre de Rectangle.
+
+On peut définir une abstraction commune représentant une forme géométrique.
+
+Rectangle et Carre sont deux formes différentes, elles implémentent une abstraction commune Forme.
+
+le principe de substitution de Liskov est respecté.
+
+le polymorphisme reste possible grâce à l'interface.
