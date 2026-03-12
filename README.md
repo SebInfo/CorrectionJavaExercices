@@ -59,7 +59,7 @@ Les exercices sont conçus pour être réalisés avec :
 
 **Sébastien Inion**
 
-Enseignant en informatique au Lycée Paul Sabatier – BTS SIO (option SLAM)
+Enseignant en informatique au Lycée Paul Sabatier (Carcassonne)– BTS SIO (option SLAM)
 
 Ce support de cours et les exercices associés ont été réalisés dans le cadre
 de l'enseignement de la programmation Java auprès des étudiants de **BTS SIO
