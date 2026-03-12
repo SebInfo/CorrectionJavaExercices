@@ -74,6 +74,11 @@ L'objectif de ce projet est de proposer :
 afin d'accompagner les étudiants dans l'apprentissage du développement Java
 et dans l'acquisition de bonnes pratiques de programmation.
 
+### Contact
+
+- 🌐 Site web : [https://www.inion-web.fr](https://www.inion-web.fr)
+- ✉️ Email : contact@inion.info
+
 ---
 # Licence
 
