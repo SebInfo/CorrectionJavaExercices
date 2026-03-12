@@ -1,7 +1,7 @@
-package chap2;
+package chapitre4;
 import java.util.Scanner;
 
-public class Exercice21 {
+public class Exercice41 {
 
     public static void main(String[] args) {
 
