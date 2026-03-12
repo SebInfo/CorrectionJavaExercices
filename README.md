@@ -1,3 +1,8 @@
+![Java](https://img.shields.io/badge/Java-21-blue)
+![BTS SIO](https://img.shields.io/badge/Formation-BTS%20SIO%20SLAM-orange)
+![License](https://img.shields.io/badge/License-CC--BY--SA--4.0-green)
+![Status](https://img.shields.io/badge/Status-En%20cours-yellow)
+
 # CorrectionJavaExercices
 
 Ce dépôt contient les **corrections des exercices** associés au support de cours de **programmation Java** destiné aux étudiants de **BTS SIO – option SLAM**.
