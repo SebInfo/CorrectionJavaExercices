@@ -13,10 +13,10 @@ public class Exercice51 {
     }
 
     /**
-     * Calcule le carre d'un entier.
+     * Calcule le carre d'un nombre entier.
      *
-     * @param nombre l'entier dont on veut le carre
-     * @return un int correspondant au carre de l'entier passe en parametre
+     * @param nombre le nombre entier dont on veut le carre
+     * @return un int correspondant au carre du nombre entier passe en parametre
      */
     private static int carre(int nombre) {
         return nombre * nombre;
