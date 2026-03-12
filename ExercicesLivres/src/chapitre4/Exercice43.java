@@ -1,6 +1,6 @@
-package chap2;
+package chapitre4;
 
-public class Exercice23 {
+public class Exercice43 {
 
     public static void main(String[] args) {
 
@@ -19,7 +19,7 @@ public class Exercice23 {
                 continue;
             }
 
-            // Afficher uniquement les notes >= 10
+            // Afficher les notes >= 10 tant que le parcours n'est pas interrompu
             if (note >= 10) {
                 System.out.println("Note retenue : " + note);
             }
