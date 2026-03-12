@@ -1,6 +1,6 @@
-package chap3;
+package chapitre5;
 
-public class Exercice32 {
+public class Exercice52 {
 
     public static void main(String[] args) {
 
@@ -11,6 +11,12 @@ public class Exercice32 {
         System.out.println("Moyenne : " + moyenne);
     }
 
+    /**
+     * Calcule la moyenne des valeurs contenues dans un tableau d'entiers.
+     *
+     * @param tableau le tableau d'entiers contenant les valeurs a moyenner
+     * @return la moyenne des elements du tableau
+     */
     private static double calculerMoyenne(int[] tableau) {
 
         if (tableau == null || tableau.length == 0) {

@@ -1,5 +1,5 @@
-package chap3;
-public class Exercice31 {
+package chapitre5;
+public class Exercice51 {
 
     public static void main(String[] args) {
 
@@ -12,6 +12,12 @@ public class Exercice31 {
         System.out.println("Carré de -3 : " + resultat3);
     }
 
+    /**
+     * Calcule le carre d'un entier.
+     *
+     * @param nombre l'entier dont on veut le carre
+     * @return un int correspondant au carre de l'entier passe en parametre
+     */
     private static int carre(int nombre) {
         return nombre * nombre;
     }
