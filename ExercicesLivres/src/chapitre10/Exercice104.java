@@ -16,6 +16,8 @@ public class Exercice104 {
      * @param args arguments de la ligne de commande
      */
     public static void main(String[] args) {
+    	
+    	// J'utilise ProduitBis pour éviter le conflit avec l'exercice précédent étant dans le même package
 
         List<ProduitBis> produits = new ArrayList<>();
 
